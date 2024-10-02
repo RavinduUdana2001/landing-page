@@ -1,5 +1,5 @@
 .dashboard-container {
-   background-image: url('src/assbanner-bg.png');  /* Path to your background image */
+   background-image: url('src/assets/banner-bg.png');  /* Path to your background image */
     background-size: cover;
     background-position: center;
     height: auto; /* Allow height to adjust based on content */
