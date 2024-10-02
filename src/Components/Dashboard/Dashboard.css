@@ -1,0 +1,84 @@
+.dashboard-container {
+   background-image: url('src/assbanner-bg.png');  /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Allow height to adjust based on content */
+    padding: 0 15px; /* Adjust padding */
+    min-height: 100vh; /* Ensure the container takes at least full viewport height */
+}
+
+.header-section {
+    margin-bottom: 1.5rem; /* Space between header and cards */
+    color: black; /* Header text color */
+}
+
+.icon-style {
+    font-size: 3.0rem; /* Decreased icon size */
+    color: rgb(255, 255, 255); /* Icon color */
+}
+
+.card {
+
+    border-radius: 28px; /* Slightly smaller rounded corners */
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s; /* Smooth transition */
+    padding: 8px; /* Decreased padding inside card */
+    border: 1px solid #ddd; /* Light border for better definition */
+    margin: 5px; /* Reduced margin for better spacing */
+    flex: 1 0 20%; /* Allow cards to grow/shrink to 20% */
+    box-sizing: border-box; /* Ensure padding and border are included in total width */
+    max-width: auto; /* Minimum width for cards to prevent them from being too small */
+    height: 100px;
+   
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
+}
+
+.card-title {
+    font-size: 0.9rem; /* Decreased card title size */
+    color: #333; /* Title color */
+}
+
+h1 {
+    font-size: 2.5rem; /* Increased header size */
+    font-weight: bold; /* Make header bold */
+}
+
+.lead {
+    font-size: 1.2rem; /* Increased subtitle size */
+    font-weight: 300; /* Lighter weight for subtitle */
+}
+
+.cards-container {
+
+    justify-content: center; /* Space out cards evenly */
+    padding-bottom: 40px;
+    
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    font-size: 1.5rem; /* Size for social icons */
+    margin: 0 10px; /* Space between icons */
+    color: white; /* Icon color */
+    transition: color 0.3s; /* Transition for hover effect */
+
+}
+
+.card-body
+{
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icon:hover {
+    color: #3b5998; /* Change color on hover (example for Facebook) */
+}
+
+
