@@ -123,13 +123,14 @@
   box-shadow: none !important;
   justify-content: center;
   align-items: center;
-  min-width: 200px; /* Minimum width for cards */
+  min-width: 110px; /* Minimum width for cards */
 }
 
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   background-color: rgba(253, 254, 255, 0.04); /* Semi-transparent blue */
+
 }
 
 .card-title {
@@ -191,7 +192,7 @@ h2, h5 {
     align-items: center; /* Center cards vertically */
     max-width: 1200px; /* Maximum width of the cards container */
     width: 100%; /* Width responsive to screen size */
-    margin: 0; /* Remove default margin */
+    margin: 0 auto;
     padding: 20px; /* Optional padding for spacing */
     overflow: visible;; /* Allow scrolling if content overflows */
   }
@@ -290,5 +291,4 @@ h2, h5 {
 {
   height: 65px;
 }
-
 

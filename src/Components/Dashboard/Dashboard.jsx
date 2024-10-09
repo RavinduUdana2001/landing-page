@@ -38,7 +38,7 @@ function Dashboard() {
       }}
     >
       {/* Header Section */}
-      <div className="text-center mb-1 mt-3 header-section text-dark ms-0 ms-lg-3 ">
+      <div className="text-center mb-1 mt-3 header-section text-dark   ">
         <h1 className="mb-2 text-center animate-from-top overflow-hidden ">Welcome to McLarens Group</h1>
         <p className="lead text-dark animate-from-top overflow-hidden">Providing Services for Over 70 Years</p>
         <button
@@ -68,7 +68,7 @@ function Dashboard() {
 
         <div className="col-lg-2 col-md-6 col-sm-12 mt-0 mt-lg-5 animate-from-bottom overflow-hidden">
           <div
-            className="card text-center shadow-sm"
+            className="card text-center shadow-sm me-1"
             onClick={() => window.open('https://outlook.cloud.microsoft/mail/', '_blank')}
           >
             <div className="card-body">
