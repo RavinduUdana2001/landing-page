@@ -1,0 +1,105 @@
+.gac-system-container {
+    background: url('../../assets/back-3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Allow height to adjust based on content */
+    padding: 0 15px; /* Adjust padding */
+    min-height: 100vh; /* Ensure the container takes at least full viewport height */
+}
+.gac-social-media-icons {
+    position: fixed; /* Fix the position on the right */
+    top: 50%; /* Center vertically */
+    right: 0; /* Align to the right edge */
+    transform: translateY(-50%); /* Center adjustment */
+    background-color: #ebeff2; /* Background for contrast */
+    padding: 10px; /* Padding around icons */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+.gac-social-iconf {
+    font-size: 24px; /* Size of the icons */
+    margin: 5px 0; /* Spacing between icons */
+    cursor: pointer; /* Pointer on hover */
+    color: black; /* Default color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+.gac-social-iconf:hover {
+    color: #0056b3; /* Change color on hover */
+}
+.gaccard
+{
+    border-radius: 28px; /* Rounded corners */
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s; /* Smooth transition */
+    padding: 8px; /* Padding inside card */
+    border: none; /* Removed the border for a cleaner look */
+    margin: 5px; /* Margin for spacing */
+    flex: 1 0 20%; /* Allow cards to grow/shrink to 20% */
+    box-sizing: border-box; /* Ensure padding and border are included in total width */
+    height: 100px; /* Fixed height */
+    background-color: rgba(0, 55, 100, 0.4); /* Light, semi-transparent background */
+}
+.gac-copyright-text
+{
+    color: rgba(255, 255, 255, 0.6); /* Softer light color */
+    font-size: 0.9rem; /* Smaller font size for copyright */
+    
+}
+.back-icon-container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+  }
+  
+  .back-icon, .next-icon {
+    font-size: 35px;
+    cursor: pointer;
+    color: #ffffff; /* Base color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling and color */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .back-icon:hover, .next-icon:hover {
+    transform: scale(1.2); /* Scale up the icons */
+    color: #003764; /* Change to an eye-catching color on hover */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.icon-style3
+{
+   font-size: 2.5rem; 
+}
